@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+</head>
+
+<body>
+    <form action="index.html">
+        
+        <fieldset>
+
+            <legend>Login info</legend>
+<br/>
+            <label for="user">Username: </label>
+            <input type="text" name="Username" id="user" required>
+            <br />
+
+            <label for="email">Email: </label>
+            <input type="email" name="Email" id="email" required>
+            <br />
+            <label for="pass">Password: </label>
+            <input type="password" name="Password" id="pass" required>
+            <br />
+
+        </fieldset> <br/>
+        <fieldset>
+    
+            <legend>Personal info</legend>
+    <br/>        <label for="name">Name:</label>
+            <input type="text" id="name" required>
+    <label for="city">City:</label>
+            <select name="city" size="1" required>
+    
+                <option value="Islamabad">Islamabad</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Faisalabad">Faisalabad</option>
+                <option value="Rawalpindi">Rawalpindi</option>
+                <option value="Gujranwala">Gujranwala</option>
+                <option value="Sialkot">Sialkot</option>
+                <option value="Other">Other</option>
+            </select>
+            <br/>
+            <p>Gender: &nbsp;
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male" checked>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+        </p>
+  
+        <label for="hobbies">Hobbies</label>
+   <br/>     <textarea name="hobbies" id="hobbies" placeholder="your hobbies" cols="30" rows="10"></textarea>
+        </fieldset> <br/>
+<fieldset>
+<legend>shipping info</legend>
+<br/>
+<label for="address">Address:</label>
+<input type="text" name="address" id="address" required>
+<br/>
+<label for="Postal">Postal code:</label>
+<input type="text" name="Postal" id="Postal" maxlength="6" required>
+<br/>
+<label for="City">City:</label>
+<input type="text" name="City" id="city" required>
+<input type="submit" value="Register">
+</fieldset>
+<p>
+   <b> if you already have account 
+<a href="Login.html"> Login </a> </b>
+</p>    
+</form>
+</body>
+
+</html>
